@@ -1,16 +1,16 @@
-<p align="center"><a href="https://github.com/DuckCIT/AllReacts-for-Facebook-Stories" target="_blank" rel="noreferrer noopener"><img width="90" alt="AllReacts Logo" src="icons/icon128.png"></a></p>
-<p align="center">AllReacts for Facebook Stories <strong>enhances</strong> your Facebook experience by letting you <strong>react with any emoji</strong> and <strong>view Stories unseen</strong>.</p>
+<p align="center"><a href="https://github.com/Erik9910x/FB-ReactX" target="_blank" rel="noreferrer noopener"><img width="90" alt="ReactX Logo" src="icons/icon128.png"></a></p>
+<p align="center">ReactX for Facebook Stories <strong>enhances</strong> your Facebook experience by letting you <strong>react with any emoji</strong> and <strong>view Stories unseen</strong>.</p>
 <br/>
 <p align="center">
   <a rel="noreferrer noopener"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-  <a rel="noreferrer noopener" href="https://addons.mozilla.org/firefox/addon/allreacts-for-facebook-stories/"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
+  <a rel="noreferrer noopener"><img alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
   <a rel="noreferrer noopener"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
 </p>
 
-<h2 align="center">AllReacts for Facebook Stories</h2>
+<h2 align="center">ReactX for Facebook Stories</h2>
 <p align="center"><strong>v2.0.1</strong> - Compatibility update for Facebook's latest GraphQL changes</p>
 <br/>
-<p align="center">AllReacts is an <strong>open-source</strong> MIT-licensed <strong>browser extension</strong> that lets you react to Facebook Stories with any emoji, going beyond the default reactions. It also allows you to view Stories without marking them as "seen," offering more flexibility and privacy.</p>
+<p align="center">ReactX is an <strong>open-source</strong> MIT-licensed <strong>browser extension</strong> that lets you react to Facebook Stories with any emoji, going beyond the default reactions. It also allows you to view Stories without marking them as "seen," offering more flexibility and privacy.</p>
 <br/>
 
 ## ✅ What's New in v2.0.1
@@ -44,12 +44,12 @@ For the latest features and improvements, check out the [CHANGELOG](CHANGELOG.md
 ### Option 2: Manual Installation (For Developers)
 1. **Clone the Repository** (or **`Download ZIP`**):
     ```bash
-    git clone https://github.com/DuckCIT/AllReacts-for-Facebook-Stories.git
+    git clone https://github.com/Erik9910x/FB-ReactX.git
 2. **Load the Extension:**
 - Open `chrome://extensions/` (Chrome), `about:debugging#/runtime/this-firefox` (Firefox), or `edge://extensions/` (Edge).
 - Enable **Developer Mode** (Chrome/Edge) or click **Load Temporary Add-on** (Firefox).
 - Select **Load Unpacked** (Chrome/Edge) or choose the manifest.json file (Firefox) from the project folder.
-3. **Launch:** Look for the AllReacts icon in your browser toolbar.
+3. **Launch:** Look for the ReactX icon in your browser toolbar.
 
 ## How to Use
 
@@ -59,20 +59,20 @@ For the latest features and improvements, check out the [CHANGELOG](CHANGELOG.md
 3. Pick your favorite emoji and react!
 
 ### Hiding "Seen" Status
-1. Click the AllReacts icon in your browser toolbar. <p align="center"><img src="screenshot/shot-2.png" width="400"/></p>
+1. Click the ReactX icon in your browser toolbar. <p align="center"><img src="screenshot/shot-2.png" width="400"/></p>
 2. Toggle the **Hide the seen status on Facebook Stories** option.
 
 ## Copyright
-© 2024 by Nguyen Trong Duc (DuckCIT). All rights reserved. Feel free to build upon this project, but please credit the original author.
+© 2026 by Erik. All rights reserved.
 
 ## Contact
-Questions or feedback? Reach out via the <a href="https://duckcit.netlify.app" target="_blank">Contact Page</a> or leave a comment on [GitHub](https://github.com/DuckCIT/AllReacts-for-Facebook-Stories).
+Questions or feedback? Reach out via [GitHub](https://github.com/Erik9910x/FB-ReactX) or [Facebook](https://facebook.com/erik9910).
 
 ## License
-This project is licensed under the MIT License. See the  file for details.
+This project is licensed under the MIT License.
 
 ## Contributing
-AllReacts is a solo project by Nguyen Trong Duc, built for personal use and shared with the community. As a single developer, I’d love your help to make it even better! You can contribute by:
-- Reporting bugs or suggesting new features on [GitHub Issues](https://github.com/DuckCIT/AllReacts-for-Facebook-Stories/issues).
-- If you're a developer, feel free to fork the repo and submit pull requests.
+ReactX is built and maintained by Erik. Contributions are welcome! You can contribute by:
+- Reporting bugs or suggesting new features on [GitHub Issues](https://github.com/Erik9910x/FB-ReactX/issues).
+- If you’re a developer, feel free to fork the repo and submit pull requests.
 ---
