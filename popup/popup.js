@@ -31,40 +31,9 @@ document.querySelectorAll('.footer button').forEach(button => {
     const icon = button.querySelector('i');
     if (!icon) return;
     let url = null;
-    if (icon.classList.contains('fa-github')) url = 'https://github.com/DuckCIT';
-    if (icon.classList.contains('fa-code')) url = 'https://github.com/DuckCIT/AllReacts-for-Facebook-Stories';
-    if (icon.classList.contains('fa-facebook')) url = 'https://facebook.com/tducxD';
+    if (icon.classList.contains('fa-github')) url = 'https://github.com/Erik9910x';
+    if (icon.classList.contains('fa-facebook')) url = 'https://facebook.com/erik9910';
     if (url) {
         button.addEventListener('click', () => extension.tabs.create({ url }));
     }
 });
-
-// --- Footer Update Button Version Check ---
-const updateButton = document.getElementById('update-button');
-const currentVersion = extension.runtime.getManifest().version;
-const versionURL = 'https://raw.githubusercontent.com/DuckCIT/AllReacts-for-Facebook-Stories/main/data/version.json';
-
-if (updateButton) {
-    fetch(versionURL)
-        .then(response => response.json())
-        .then(data => {
-            const latestVersion = data.version;
-            const changelogURL = data.changelog;
-
-            if (currentVersion !== latestVersion) {
-                updateButton.title = `New version ${latestVersion} available! Click to see details.`;
-                updateButton.style.color = 'var(--primary-color)';
-                updateButton.style.animation = 'pulse 1.2s infinite';
-
-                updateButton.addEventListener('click', () => {
-                    extension.tabs.create({ url: changelogURL });
-                });
-            } else {
-                updateButton.title = `You're up to date! (v${currentVersion})`;
-            }
-        })
-        .catch(error => {
-            console.error('Failed to fetch version info:', error);
-            updateButton.title = `Update check failed`;
-        });
-}
